@@ -1,0 +1,80 @@
+let rand = y > 0.5 ? rand = true : rand = false 
+[condição ]   [se]        [senão]
+
+if/else
+if ([expressao -> true/false]){
+  [codigo a ser executado se for true]
+}
+else ´[ codigo a ser executado caso for false]
+
+
+if/else if
+if ([expressao -> true/false]){
+  [codigo a ser executado se for true]
+}else if{
+  ([expressao2 -> true/false])
+  [codigo a ser executado se expressão2 =true]
+}else{
+  [codigo a ser executado se a expressão2 for false]
+
+}
+
+switch/case
+
+switch ([valor]){
+  case [1]
+  [codigo a ser executado caso valor == 1]
+  break
+  case [2]
+  [codigo a ser executado caso valor == 2]
+  break
+  case [3]
+  [codigo a ser executado caso valor == 3]
+  break [para a execução do código caso a expressão seja verdadeira]
+  case [4]
+  case [5]
+  [código a ser executado caso valor == 4 ou 5]
+  break 
+  default: 
+  [codigo a ser executado caso valor = qualquer coisa diferente dos casos]
+}
+
+operador ternario 
+[expressão] ? [se expressão true] : [senao]
+
+
+[expressão]? [se expressão true ] : [expressão 2] ? [se e/xpressão2 true ] : [se expressao e expressão 2 false] 
+
+
+variaveis : 
+let nome = 876 // pode ser alterado após passar por uma operação não é reconhecido fora do bloco se for criado dentro de um // é reconhecido se for definido fora do bloco no escopo geral;
+const nome = 123 // não pode ser alterado;
+var nome= 343 // pode ser alterado// se vc quiser redefinindo seu valor inicial é reconhecido fora do bloco se for criado dentro de um//  é reconhecido se for definido fora do bloco no escopo geral;
+
+
+for (let i = 0; i> 10; i= i++){
+    [define o valor inicial da variavel]
+    [define uma condição para o loop continuar rodando] [pode ser usado para definir quantas vezes um loop vai "rodar"]
+    [define como o a variavel muda a cada iteração do loop]   
+    [só sai do loop se a condição não for mais verdadeira]    
+    [codigo que vai rodar varias vezes ou não]
+    [console.log diz o que será mostrado pode ser o resultado de i ou outra coisa como "math.random"]
+}
+
+while([enquanto esta função for verdadeira continue rodando]){
+
+}
+
+let contador= 0
+while ( contador < 10){
+  contador++
+  console.log (contador)
+}
+
+let rand = 0
+while (rand < 0.5){
+  rand 
+}
+array = um conjunto de elementos (pode ter de tudo dentro)
+array.lenght =  fala quantos elementos tem na array
+array [posição do item] = fala que item ta nessa posiçaõ 
