@@ -14,6 +14,31 @@ for (matriz = 0; matriz < 5; matriz++) {
     console.log(arr)
 }
 
+//correcao 
+let matriz = []
+for (let j = 0; j < 5; j++) {
+    let linha = []
+    for (let i = 0; i < 5; i++) {
+        linha.push(0)
+    }
+    matriz.push(linha)
+}
+// ou...
+let linha = []
+for (let i = 0; i < 5; i++) {
+    linha.push(0)
+}
+let matriz = []
+for (let i = 0; i < 5; i++) {
+    matriz.push(linha)
+}
+// ou..
+// nao pratico, porque? referencias.
+let matriz = []
+let linha = []
+for (let i = 0; i < 5; i++) {
+    linha.push(0)
+    matriz.push(linha)
 
 
 
@@ -26,6 +51,8 @@ for (matriz = 0; matriz < 5; matriz++) {
 //   [3, 2, 1, 0, 1],
 //   [4, 3, 2, 1, 0] ]
 
+
+//dica
 //let arr = []
 //for ( i = 0; i < 5; i++){
 //     const arrDeDentro = [];k
@@ -44,6 +71,18 @@ for (matriz = 0; matriz < 5; matriz++) {
     }
     console.log(arr)
 }
+
+// correcao 
+let matriz = []
+for (let j = 0; j < 5; j++) { // A
+    let linha = []
+    for (let i = 0; i < 5; i++) { // B
+        linha.push(Math.abs(i - j))
+    }
+    matriz.push(linha)
+}
+
+
 // creva um loop em Javascriptb 
 // que printa o seguinte padrão
 // no console:
@@ -54,6 +93,7 @@ for (matriz = 0; matriz < 5; matriz++) {
 // ***
 // **
 // *
+//correcao
  let all=[]
 for (m = 0; m > 7; m++){
 let arr= []
@@ -113,6 +153,7 @@ for (let i = 0; i < 7; i++) {
 // 123456*
 // 1234567 
 
+//correcao 
 for (let j = 1; j <= 7; j++) {
     let linha = ""
     for (let k = 1; k <= j; k++) {
